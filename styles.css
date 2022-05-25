@@ -7,6 +7,27 @@
 }
 
 
-.car {
+img {
   width: 200px;
+}
+
+
+.north {
+  transform: rotate(-90deg);
+  transition: transform .1s;
+}
+
+.south {
+  transform: rotate(90deg);
+  transition: transform .1s;
+}
+
+.east {
+  transform: rotate(0);
+  transition: transform .1s;
+}
+
+.west {
+  transform: rotate(-180deg);
+  transition: transform .1s;
 }
